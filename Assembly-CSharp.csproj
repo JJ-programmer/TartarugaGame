@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B9ACB686-62D6-427C-2C14-9EA9D28B9414}</ProjectGuid>
+    <ProjectGuid>{ADFCF1FE-C8BD-B235-A3BB-6FB41C6C92A7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,10 +56,13 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\MoveTartaruga.cs" />
     <Compile Include="Assets\Scripts\Shooter.cs" />
+    <Compile Include="Assets\Scripts\MoveTartaruga.cs" />
     <Compile Include="Assets\Scripts\MoveShooter.cs" />
     <Compile Include="Assets\Scripts\CriaMorango.cs" />
+    <Compile Include="Assets\Scripts\MoveInimigo.cs" />
+    <Compile Include="Assets\Scripts\ShooterInimigo.cs" />
+    <Compile Include="Assets\Scripts\MoveShooterInimigo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
